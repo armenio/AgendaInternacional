@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Marcador de reunião internacional</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png" async="async"/>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css">
+
+    <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
+<body>
+
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+            <div id="app" class="panel panel-default">
+                <div class="panel-body">
+
+                    <h1>Marcador de reunião <strong>internacional</strong></h1>
+
+                    <hr/>
+
+                    <form>
+                        <div class="form-body">
+
+                            <div class="row">
+
+                                <div class="col-xs-12 col-md-4">
+                                    <div class="form-group element element_date">
+                                        <label for="element_date">Melhor data para a renunião</label>
+                                        <div class="input-group input_data data">
+                                            <input type="datetime" name="data" id="element_date" class="form-control" placeholder="Informe uma data" value="">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span> </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12 col-md-4">
+                                    <div class="form-group element element_city1">
+                                        <label for="element_city1">Sua cidade</label>
+                                        <div class="input input_cidade1 cidade1">
+                                            <input type="text" name="cidade1" id="element_city1" class="form-control" placeholder="Digite um local" value="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12 col-md-4">
+                                    <div class="form-group element element_city2">
+                                        <label for="element_city2">Cidade da outra pessoa</label>
+                                        <div class="input input_cidade2 text">
+                                            <input type="text" name="cidade2" id="element_city2" class="form-control" placeholder="Digite um local" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div id="feedback" class="hidden text-center">
+                        <div class="alert alert-dismissible" role="alert">
+                            <span class="mensagem"></span>
+                        </div>
+                    </div>
+
+                    <div id="result" class="hidden">
+                        <h2><strong>Horário</strong> da reunião</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item local1"><span class="city"></span> - <span class="date"></span> <strong class="hours"></strong> <strong class="ampm text-uppercase"></strong></li>
+                            <li class="list-group-item local2"><span class="city"></span> - <span class="date"></span> <strong class="hours"></strong> <strong class="ampm text-uppercase"></strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- /container -->
+
+<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/vendor/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+<script src="assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="assets/vendor/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt-BR.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPbTIwcRFCxFIALB4ayDB96lEA6wpJK-U&libraries=places,timezone"></script>
+
+<script src="assets/js/main.min.js"></script>
+</body>
+</html>

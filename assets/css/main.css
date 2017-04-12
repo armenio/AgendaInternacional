@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i);
+body {
+  color: #252422;
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  background: url("../img/bg.jpg") no-repeat center;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  position: relative; }
+  body .browserupgrade {
+    background-color: #FFF176;
+    border: 1px solid #ddd698;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    margin: 0; }
+    body .browserupgrade a {
+      color: #B71C1C; }
+  body #app {
+    margin-top: 100px; }
+    body #app h1 {
+      text-align: center;
+      font-weight: 300; }
+      body #app h1 strong {
+        font-weight: bold; }
+    body #app h2 {
+      font-weight: 300; }
+      body #app h2 strong {
+        font-weight: bold; }
+  body .panel-body {
+    padding: 20px 30px; }
+  body #feedback {
+    margin: 30px auto;
+    text-align: center; }
+  body .datepicker .next,
+  body .datepicker .prev {
+    color: #777;
+    font-size: 18px; }
+  body .datepicker table tbody tr {
+    border-left: 1px solid #ebebeb; }
+    body .datepicker table tbody tr td {
+      border-radius: 0;
+      border-right: 1px solid #ebebeb;
+      border-bottom: 1px solid #ebebeb; }
+  body .datepicker table tbody tr:first-child {
+    border-top: 1px solid #ebebeb; }
+  body .datepicker table tr td.new,
+  body .datepicker table tr td.old {
+    background: #f7f7f7; }
+  body .datepicker table tr td.day:hover {
+    background: #eee; }
+  body .datepicker table tr td.disabled,
+  body .datepicker table tr td.disabled:hover {
+    background: #ddd; }
+  body .datepicker table tr td.active.active,
+  body .datepicker table tr td.active.highlighted.active,
+  body .datepicker table tr td.active.active:active,
+  body .datepicker table tr td.active.highlighted.active:active,
+  body .datepicker table tr td.active.active:focus,
+  body .datepicker table tr td.active.highlighted.active:focus,
+  body .datepicker table tr td.active.active:hover,
+  body .datepicker table tr td.active.highlighted.active:hover {
+    background: #1565ab;
+    border-color: #1565ab;
+    color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

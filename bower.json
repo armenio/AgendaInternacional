@@ -1,0 +1,21 @@
+{
+  "name": "agenda",
+  "version": "0.0.1",
+  "authors": [
+    "Rafael Armênio <rafael.armenio@gmail.com>"
+  ],
+  "description": "Teste MaxMilhas",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap-datepicker": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "jquery.scrollTo": "^2.1.2"
+  }
+}
